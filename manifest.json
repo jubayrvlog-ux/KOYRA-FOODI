@@ -1,27 +1,31 @@
 {
-  "background_color": "hsv(0, 18%, 100%)",
-  "description": "কয়রা উপজেলার মজার মজার খাবার ঘরে বসেই অর্ডার করুন। দ্রুত ও সহজ খাবার ডেলিভারি।",
-  "dir": "ltr",
-  "display": "standalone",
+  "id": "/",
   "name": "KOYRA FOODI",
-  "orientation": "any",
-  "scope": "/",
   "short_name": "KOYRA",
+  "description": "কয়রা উপজেলার মজার মজার খাবার ঘরে বসেই অর্ডার করুন। দ্রুত ও সহজ খাবার ডেলিভারি।",
+  "lang": "bn",
+  "dir": "ltr",
   "start_url": "/",
-  "theme_color": "#e51d2a",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone"],
+  "orientation": "portrait",
+  "background_color": "#FFFFFF",
+  "theme_color": "#E51D2A",
+  "categories": ["food", "shopping", "lifestyle"],
+  "prefer_related_applications": false,
   "icons": [
     {
-      "src": "https://koyra-foodi-nmfn.vercel.app/favicon.ico",
-      "type": "image/x-icon",
-      "isSquare": false,
-      "isPng": false,
-      "isWebp": false,
-      "isJpg": false,
-      "width": 0,
-      "is512x512": false,
-      "is256x256": false,
-      "is192x192": false
+      "src": "/koyra-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/koyra-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
-  ],
-  "id": "koyra-foodi"
+  ]
 }
